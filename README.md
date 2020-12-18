@@ -1,7 +1,7 @@
 Psysh
 =====
-[![Docker Automated build](https://img.shields.io/docker/automated/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
-[![Docker Build Status](https://img.shields.io/docker/build/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
+[![Docker Automated build](https://img.shields.io/docker/automated/connrs/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
+[![Docker Build Status](https://img.shields.io/docker/build/connrs/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
 
 Docker image [psy/psysh](https://github.com/bobthecow/psysh)
 
