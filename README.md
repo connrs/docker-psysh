@@ -1,7 +1,7 @@
 Psysh
 =====
-[![Docker Automated build](https://img.shields.io/docker/automated/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/ricc/psysh/)
-[![Docker Build Status](https://img.shields.io/docker/build/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/ricc/psysh/)
+[![Docker Automated build](https://img.shields.io/docker/automated/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
+[![Docker Build Status](https://img.shields.io/docker/build/ricc/psysh.svg?style=flat-square)](https://hub.docker.com/r/connrs/psysh/)
 
 Docker image [psy/psysh](https://github.com/bobthecow/psysh)
 
@@ -9,7 +9,7 @@ Usage
 -------
 
 ``` bash
-$ docker run -v $(pwd):/app -it ricc/psysh
+$ docker run -v $(pwd):/app -it connrs/psysh
 ```
 
 Docker Compose
@@ -23,7 +23,7 @@ services:
   interactive:
     volumes:
       - ./:/app
-    image: ricc/psysh:latest
+    image: connrs/psysh:latest
 ```
 
 Then run:
